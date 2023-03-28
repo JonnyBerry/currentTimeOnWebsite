@@ -17,3 +17,14 @@
 .container img{
   width: 95%;
 }
+.container h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* content will be centred*/
+  transform:translate(-50%, -50%);
+  color: #fff;
+  font-size: 90px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
